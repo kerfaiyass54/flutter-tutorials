@@ -18,16 +18,18 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red,
         foregroundColor: Colors.white,
-
       ),
-      body: Center(
-          child: Text('Hey',
-            style: TextStyle(
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 20.5,
-          ),
-          ),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Text('hello'),
+          TextButton(onPressed: (){},child: Text('s'),),
+          Container(
+            color: Colors.grey,
+            child: Text("essayer sahbi"),
+          )
+        ],
       ),
       floatingActionButton: FloatingActionButton(
           onPressed: () {
