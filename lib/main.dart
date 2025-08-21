@@ -20,9 +20,12 @@ class Home extends StatelessWidget {
         foregroundColor: Colors.white,
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
+          Row(
+            children: <Widget>[Text('zero ki si ***i')]
+          ),
           Container(
             padding: EdgeInsets.all(20.5),
             color: Colors.cyanAccent,
