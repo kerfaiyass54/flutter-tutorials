@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Row(
-            children: <Widget>[Text('zero ki si ***i')]
+            children: <Widget>[Text('zero')]
           ),
           Container(
             padding: EdgeInsets.all(20.5),
