@@ -19,15 +19,19 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red,
         foregroundColor: Colors.white,
       ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Text('hello'),
-          TextButton(onPressed: (){},child: Text('s'),),
           Container(
-            color: Colors.grey,
-            child: Text("essayer sahbi"),
+            padding: EdgeInsets.all(20.5),
+            color: Colors.cyanAccent,
+            child: Text('one'),
+          ),
+          Container(
+            padding: EdgeInsets.all(20.5),
+            color: Colors.cyanAccent,
+            child: Text('two'),
           )
         ],
       ),
